@@ -1,0 +1,14 @@
+{
+  "name": "ca-runtime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ca-runtime": "./index.js"
+  },
+  "repository": "git@github.com:cognitiveactions/cr-agent.git",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
