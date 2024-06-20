@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import 'dotenv/config';
 import axios from 'axios';
 import { S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
