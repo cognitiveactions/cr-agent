@@ -90,9 +90,11 @@ async function run() {
     const output = await mod.default(params);
     await reportCompleted(output);
     console.log(output);
+    process.exit(0); // exit with sucess
   }catch(e){
     console.error(e);
     await reportFailed(e);
+    process.exit(1); // exit with error
   }
 }
 
